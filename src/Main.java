@@ -6,6 +6,7 @@ public class Main {
         // to see how IntelliJ IDEA suggests fixing it.
         BuddyInfo homer = new BuddyInfo("Homer", "33 Springfeild", "888-888-8888");
         AddressBook book = new AddressBook();
+        book.addBuddy(homer);
         System.out.printf("Hello "+homer.getBuddyName());
     }
 }
